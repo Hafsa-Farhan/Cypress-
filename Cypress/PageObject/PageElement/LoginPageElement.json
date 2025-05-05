@@ -1,0 +1,14 @@
+{
+    "LoginPageLocators": {
+      "username_text": "[data-test=\"username\"]",
+      "password_text": "[data-test=\"password\"]",
+      "loginBtn": "[data-test=\"login-button\"]",
+      "productPage": "[data-test=\"item-4-title-link\"] > [data-test=\"inventory-item-name\"]",
+      "backtomain": "[data-test=\"back-to-products\"]"
+    }
+  }
+  
+  
+  
+
+

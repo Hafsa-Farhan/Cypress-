@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-05T08:36:56.513Z",
+    "end": "2025-05-05T08:37:06.835Z",
+    "duration": 10322,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "95696973-7a89-441f-af23-2f12e6990858",
+      "title": "",
+      "fullFile": "cypress\\e2e\\NotLogin.cy.js",
+      "file": "cypress\\e2e\\NotLogin.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "60e67491-279c-41aa-b860-5a1beee2b8c4",
+          "title": "Test Invalid Login Fuctionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should not open landing page ",
+              "fullTitle": "Test Invalid Login Fuctionality should not open landing page ",
+              "timedOut": null,
+              "duration": 10148,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/');\nlogin.username('user');\ncy.wait(2000);\nlogin.password('sauce');\ncy.wait(2000);\nlogin.LoginButton();\ncy.wait(2000);",
+              "err": {},
+              "uuid": "61e7d619-bf80-41ab-9d0e-eb078f1f68a1",
+              "parentUUID": "60e67491-279c-41aa-b860-5a1beee2b8c4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "61e7d619-bf80-41ab-9d0e-eb078f1f68a1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10148,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
