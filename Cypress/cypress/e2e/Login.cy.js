@@ -12,8 +12,8 @@ describe('Test Login Fuctionality', ()=>{
         cy.wait(2000)
         login.LoginButton()
         cy.wait(2000)
-        cy.url().should('include', '/dashboard')
-        cy.get('[data-test="dashboard-header"]').should('contain', 'Welcome')
+       cy.url().should('include', 'https://www.saucedemo.com/inventory.html');
+       cy.get('.app_logo').should('contain', 'Swag Labs');
     })
 })
 
