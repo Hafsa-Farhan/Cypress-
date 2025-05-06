@@ -11,6 +11,6 @@ describe('Test Invalid Login Fuctionality', ()=>{
         cy.wait(2000)
         login.LoginButton()
         cy.wait(2000) 
-        
+           cy.get('.error-message-container').should('be.visible').and('contain' , 'Epic sadface: Username and password do not match any user in this service')
     })
 })
